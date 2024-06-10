@@ -12,7 +12,9 @@ public class SaurioClass {
     private String nombreSaurio;
     private String poder;
     private int dinoAge;
+
     private String alimentacione;
+
 
     public SaurioClass() {
     }
@@ -21,7 +23,9 @@ public class SaurioClass {
         this.nombreSaurio = nombreSaurio;
         this.poder = poder;
         this.dinoAge = dinoAge;
+
         this.alimentacione = alimentacion;
+
     }
 
     public String getNombreSaurio() {
@@ -50,11 +54,13 @@ public class SaurioClass {
     }
 
     public String getAlimentacion() {
+
         return alimentacione;
     }
 
     public void setAlimentacion(String alimentacion) {
         this.alimentacione = alimentacion;
+
     }
     
     
