@@ -125,7 +125,7 @@ public class DataSaurioPanel extends javax.swing.JPanel {
         saurio.setDinoAge(Integer.parseInt(tx_edad.getText()));
         saurio.setAlimentacion(tx_alimentacion.getText());
         saurio.setPoder((String) cb_poder.getSelectedItem());
-        
+        var variable = "hola";
         JSONObject respuestaCrear = (JSONObject) APIHandler.createSaurio(saurio);
         if(respuestaCrear.get("code_response").equals(0)){
             
